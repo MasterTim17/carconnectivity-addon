@@ -6,7 +6,7 @@ build_from:
 labels:
   org.opencontainers.image.title: "Home Assistant Add-on: CarConnectivity Edge"
   org.opencontainers.image.description: "Addon version of Carconnectivity Edge made by Till (see https://github.com/tillsteinbach/CarConnectivity) throught MQTT"
-  org.opencontainers.image.source: "https://github.com/Pulpyyyy/carconnectivity-addon"
+  org.opencontainers.image.source: "https://github.com/MasterTim17/carconnectivity-addon"
   org.opencontainers.image.licenses: "Apache License 2.0"
 
 args:
