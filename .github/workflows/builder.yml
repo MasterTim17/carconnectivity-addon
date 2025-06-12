@@ -16,7 +16,7 @@ on:
   
 env:
   REPOSITORY: MasterTim17
-  REGISTRY: ghcr.io
+  REGISTRY: docker.io
   
 concurrency:
   group: ${{ github.ref }}
@@ -50,5 +50,5 @@ jobs:
             --target /data/${{ matrix.addon }} \
             --docker-hub ${{ env.REPOSITORY }} \
             --docker-hub-check \
-            --docker-user ${{ github.actor }} \
-            --docker-password ${{ secrets.GITHUB_TOKEN }}
+            --docker-user ${{ secrets.DOCKERHUB_USERNAME }} \
+            --docker-password ${{ secrets.DOCKERHUB_TOKEN }}
