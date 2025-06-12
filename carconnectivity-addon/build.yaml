@@ -6,12 +6,12 @@ build_from:
 labels:
   org.opencontainers.image.title: "Home Assistant Add-on: CarConnectivity"
   org.opencontainers.image.description: "Addon version of Carconnectivity made by Till (see https://github.com/tillsteinbach/CarConnectivity) throught MQTT"
-  org.opencontainers.image.source: "https://github.com/Pulpyyyy/carconnectivity-addon"
+  org.opencontainers.image.source: "https://github.com/MasterTim17/carconnectivity-addon"
   org.opencontainers.image.licenses: "Apache License 2.0"
 
 args:
   NGINX_VERSION: "1.26.3"
-  SEAT_VERSION: "v0.4.2"
+  SEAT_VERSION: "v0.4.3"
   SKODA_VERSION: "v0.7.2"
   VW_VERSION: "v0.7.2"
   TRONITY_VERSION: "v0.6.2"
@@ -19,4 +19,4 @@ args:
   MQTT_VERSION: "v0.7.3"
   MQTTHA_VERSION: "v0.4"
   WEBUI_VERSION: "v0.5"
-  CC_VERSION: "v0.7"
+  CC_VERSION: "v0.7.1"
