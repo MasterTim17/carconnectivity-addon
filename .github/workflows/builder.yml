@@ -15,7 +15,7 @@ on:
   workflow_dispatch:
   
 env:
-  REPOSITORY: pulpyyyy
+  REPOSITORY: MasterTim17
   REGISTRY: docker.io
   
 concurrency:
@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        addon: [carconnectivity-addon, carconnectivity-addon-edge]
+        addon: [carconnectivity-addon]
         
     steps:
       - name: Check out repository

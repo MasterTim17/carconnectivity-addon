@@ -1,8 +1,8 @@
 name: "CarConnectivity Add-on"
-version: 0.4.3
+version: 0.4.3_trip
 slug: "carconnectivity-addon"
 description: "CarConnectivity Add-on based on Till's project (https://github.com/tillsteinbach/CarConnectivity). May be unstable. MQTT required."
-image: "docker.io/pulpyyyy/carconnectivity-addon-{arch}"
+# image: "docker.io/MasterTim17/carconnectivity-addon-{arch}"
 panel_icon: "mdi:car-wireless"
 map:
   - addon_config:rw
