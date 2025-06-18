@@ -9,7 +9,7 @@
 	url = https://github.com/tillsteinbach/CarConnectivity-connector-tronity
 [submodule "CarConnectivity-connector-seatcupra"]
 	path = CarConnectivity-connector-seatcupra
-	url = https://github.com/tillsteinbach/CarConnectivity-connector-seatcupra
+	url = https://github.com/MasterTim17/CarConnectivity-connector-seatcupra
 [submodule "CarConnectivity-connector-skoda"]
 	path = CarConnectivity-connector-skoda
 	url = https://github.com/tillsteinbach/CarConnectivity-connector-skoda
@@ -27,4 +27,4 @@
 	url = https://github.com/tillsteinbach/CarConnectivity-plugin-abrp.git
 [submodule "CarConnectivity"]
 	path = CarConnectivity
-	url = https://github.com/tillsteinbach/CarConnectivity
+	url = https://github.com/MasterTim17/CarConnectivity
