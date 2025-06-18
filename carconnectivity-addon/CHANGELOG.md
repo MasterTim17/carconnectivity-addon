@@ -1,3 +1,6 @@
+## 0.2.13
+new version for trip data
+
 ## 0.2.12
 
 
