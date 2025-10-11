@@ -25,8 +25,8 @@ RUN echo "ADDON_VERSION=v${BUILD_VERSION}" >> versions.txt && \
     python3 -m venv /opt/venv && \
     /opt/venv/bin/pip install --upgrade pip && \
     /opt/venv/bin/pip install --no-cache \
+        git+https://github.com/MasterTim17/carconnectivity.git@main \
         carconnectivity-connector-audi==${AUDI_VERSION} \
-        git+https://github.com/MasterTim17/carconnectivity@main \
         git+https://github.com/MasterTim17/carconnectivity-connector-seatcupra@main \
         carconnectivity-connector-skoda==${SKODA_VERSION} \
         carconnectivity-connector-volkswagen==${VW_VERSION} \
